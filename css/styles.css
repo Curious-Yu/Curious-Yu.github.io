@@ -76,25 +76,59 @@ body {
   }
   
   .homeIcon {
-    margin: 3vh 0vw;
+    margin: 6vh 0vw;
     font-size: 10vh;
     color: #daa520;
     
   }
 
   .homeIcon:hover {
-    animation: iconMove 3s ease-in-out 0s infinite normal both;
+    animation: iconMove 6s ease-in-out 1s 2 normal both;
   }
 
   @keyframes iconMove {
     0% {
-      opacity: 0;
-      transform: translateY(-250px);
+      animation-timing-function: ease-in;
+      opacity: 1;
+      transform: translateY(-30px);
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    40% {
+      animation-timing-function: ease-in;
+      transform: translateY(-24px);
+    }
+  
+    65% {
+      animation-timing-function: ease-in;
+      transform: translateY(-12px);
+    }
+  
+    82% {
+      animation-timing-function: ease-in;
+      transform: translateY(-6px);
+    }
+  
+    93% {
+      animation-timing-function: ease-in;
+      transform: translateY(-4px);
+    }
+  
+    25%,
+    55%,
+    75%,
+    87% {
+      animation-timing-function: ease-out;
+      transform: translateY(0px);
     }
   
     100% {
+      animation-timing-function: ease-out;
       opacity: 1;
-      transform: translateY(0);
+      transform: translateY(0px);
     }
   }
 
