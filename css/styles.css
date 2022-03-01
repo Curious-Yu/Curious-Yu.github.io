@@ -116,7 +116,7 @@ body {
     }
   }
 
-  @media screen and (max-width: 700px) {
+  @media (max-width: 700px) {
     .homeTitle {
         font-size: 16vh;
     }
