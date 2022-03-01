@@ -6,10 +6,6 @@ body {
   }
   
   /* Home Page */
-  #homeBackground {
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
   
   .home{
     height: 100vh;
