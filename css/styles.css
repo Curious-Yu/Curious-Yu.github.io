@@ -29,7 +29,7 @@ body {
   .homeTitle {
     font-size: 20vh;
     color: #daa520;
-    animation: jelloMove 2s ease-in-out 0s 2 normal both;
+    animation: jelloMove 6s ease-in-out 0s 2 normal both;
   }
   
   @keyframes jelloMove {
@@ -79,14 +79,14 @@ body {
     margin: 6vh 0vw;
     font-size: 10vw;
     color: #daa520;
-    animation: iconMove 6s cubic-bezier(0.55, 0, 1, 0.45) 1s infinite normal both;
+    animation: iconMove 6s ease-in-out 1s infinite normal both;
   }
 
   @keyframes iconMove {
     0% {
       animation-timing-function: ease-in;
       opacity: 1;
-      transform: translateY(-20px);
+      transform: translateY(-45px);
     }
   
     24% {
@@ -95,22 +95,22 @@ body {
   
     40% {
       animation-timing-function: ease-in;
-      transform: translateY(-12px);
+      transform: translateY(-24px);
     }
   
     65% {
       animation-timing-function: ease-in;
-      transform: translateY(-8px);
-    }
-  
-    80% {
-      animation-timing-function: ease-in;
-      transform: translateY(-10px);
-    }
-  
-    95% {
-      animation-timing-function: ease-in;
       transform: translateY(-12px);
+    }
+  
+    82% {
+      animation-timing-function: ease-in;
+      transform: translateY(-6px);
+    }
+  
+    93% {
+      animation-timing-function: ease-in;
+      transform: translateY(-4px);
     }
   
     25%,
@@ -130,3 +130,80 @@ body {
 
 
   /* SKILLS */
+
+  /*projects*/
+  .repos {
+    padding: 10vh 0vw;
+    background-color: mistyrose;
+    background-size: 30vw;
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .repos {
+      background-size: 50vw;
+    }
+  }
+  
+  .reposTitle {
+    text-align: center;
+    color: #292f38;
+    font-family: 'Lobster';
+  }
+  
+  .fullRepos {
+    margin: 10vh 0vw;
+    text-align: center;
+  }
+  
+  .fullRepos a:link, .fullRepos a:visited {
+    font-weight: bold;
+    color: tomato;
+    text-decoration: none;
+  }
+  
+  .fullRepos a:hover, .fullRepos a:active {
+    color: #292f38;
+    font-weight: bold;
+  }
+  
+  li.list-group-item {
+    list-style-type: none; /* Remove bullets */
+    /*padding: 5px 10px; /* Remove padding */
+    /*margin: 5px; /* Remove margins */
+  }
+  
+  .list-group-item {
+    text-align: center;
+    font-size: 80%;
+  
+    width: 280px;
+    min-height: 200px;
+    
+    color: #292f38;
+    border: solid tomato;
+    box-shadow: 10px 10px tomato;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .list-group {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .list-group-item a:link, .list-group-item a:visited {
+    color: #292f38;
+    text-decoration: none;
+  }
+  
+  .list-group-item a:hover, .list-group-item a:active {
+    color: #292f38;
+    font-weight: bold;
+  }
