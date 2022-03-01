@@ -17,5 +17,3 @@ if (document.getElementById("homeBackground")) {
         document.getElementById("homeBackground").style.backgroundPosition = "left";
     }
 }
-
-background-position: center
