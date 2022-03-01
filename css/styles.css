@@ -76,12 +76,12 @@ body {
   }
   
   .homeIcon {
-    width: 6vh;
     margin: 6vh 0vw;
     font-size: 10vw;
     color: #daa520;
     animation: iconMove 6s cubic-bezier(0.55, 0, 1, 0.45) 1s infinite normal both;
   }
+
   @keyframes iconMove {
     0% {
       animation-timing-function: ease-in;
@@ -127,5 +127,6 @@ body {
       transform: translateY(0px);
     }
   }
+
 
   /* SKILLS */
