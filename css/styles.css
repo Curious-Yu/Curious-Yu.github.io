@@ -100,7 +100,7 @@ body {
   }
 
   .homeIcon:active {
-    animation: iconMove 6s cubic-bezier(0.87, 0, 0.13, 1) 0s 2 normal both;
+    /*animation: iconMove 6s cubic-bezier(0.87, 0, 0.13, 1) 0s 2 normal both;*/
   }
 
   @keyframes iconMove {
