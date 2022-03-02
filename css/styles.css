@@ -33,7 +33,7 @@ body {
   }
 
   .homeTitle:hover {
-    animation: jelloMove 6s ease-in-out 0s 2 normal both;
+    animation: jelloMove 6s ease-in-out 0s 1 normal both;
   }
   
   @keyframes jelloMove {
@@ -146,7 +146,7 @@ body {
   }
 
   .skillsTitle:hover {
-    animation: jelloMove 6s ease-in-out 0s 2 normal both;
+    animation: jelloMove 6s ease-in-out 0s 1 normal both;
   }
   
   @keyframes jelloMove {
