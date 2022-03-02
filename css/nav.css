@@ -36,7 +36,7 @@
   }
 
   #myLinks a:hover, #myLinks a:active {
-    color: mistyrose;
+    animation: linkMove 3s ease-in-out 0s infinite normal both;
   }
   
   /* Style navigation menu links */
