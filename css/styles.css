@@ -31,6 +31,10 @@ body {
     color: #daa520;
     animation: jelloMove 6s ease-in-out 0s 2 normal both;
   }
+
+  .homeTitle:hover {
+    animation: jelloMove 6s ease-in-out 0s 2 normal both;
+  }
   
   @keyframes jelloMove {
     0% {
@@ -138,6 +142,10 @@ body {
     color: none;
     padding: 0;
     margin: 0;
+    animation: jelloMove 6s ease-in-out 0s 2 normal both;
+  }
+
+  .skillsTitle:hover {
     animation: jelloMove 6s ease-in-out 0s 2 normal both;
   }
   
