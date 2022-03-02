@@ -128,7 +128,7 @@ body {
     border-radius: 2vw;
     border: solid 2vw saddlebrown;
     opacity: 0.85;
-    min-height: 60vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     flex-wrap: no-wrap;
