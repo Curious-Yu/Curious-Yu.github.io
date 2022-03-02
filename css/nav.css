@@ -5,7 +5,7 @@
     padding: 0;
     margin: 0;
     width: 100vw;
-    z-index: 1;
+    z-index: 2;
     font-size: 6vh;
     display: flex;
     flex-direction: row;
@@ -13,45 +13,7 @@
     justify-content: space-between;
   }
   
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  #myLinks {
-    display: none;
-    text-align: center;
-    width: 50vh;
-    min-height: 60vh;
-    float: right;
-    flex-direction: column;
-    flex-wrap: no-wrap;
-    justify-content: space-evenly;
-    align-content: center;
-    background-color: black;
-    animation: menuMove 1s ease-in-out 0s 1 normal both;
-  }
 
-  @keyframes menuMove {
-    0% {
-      transform: scaleX(0);
-    }
-  
-    100% {
-      transform: scaleX(1);
-    }
-  }
-
-  @media only screen and (max-width: 800px) {
-    #myLinks {
-        width: 100vw;
-        float: none;
-      }
-  }
-
-  #myLinks a {
-    padding: 10px 0px;
-  }
-
-  #myLinks a:hover, #myLinks a:active {
-    animation: linkMove 3s ease-in-out 0s 1 normal both;
-  }
   
   /* Style navigation menu links */
   .topnav a {
@@ -89,6 +51,52 @@
   .active a:hover, .active a:active{
     animation: linkMove 3s ease-in-out 0s 1 normal both;
   }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    #myLinks {
+      z-index: 1;
+      display: none;
+      text-align: center;
+      width: 50vh;
+      min-height: 80vh;
+      float: right;
+      flex-direction: column;
+      flex-wrap: no-wrap;
+      justify-content: space-evenly;
+      align-content: center;
+      background-color: black;
+      position:fixed;
+      right: 0;
+      animation: menuMove 1s ease-in-out 0s 1 normal both;
+    }
+  
+    @keyframes menuMove {
+      0% {
+        transform: scaleX(0);
+      }
+    
+      100% {
+        transform: scaleX(1);
+      }
+    }
+  
+    @media only screen and (max-width: 800px) {
+      #myLinks {
+          width: 100vw;
+          float: none;
+        }
+    }
+  
+    #myLinks a {
+      padding: 10px 0px;
+      color: saddlebrown;
+      text-shadow: 1px 1px 1px #daa520;
+      text-decoration: none;
+    }
+  
+    #myLinks a:hover, #myLinks a:active {
+      animation: linkMove 3s ease-in-out 0s 1 normal both;
+    }
 
   @keyframes linkMove {
     0% {
