@@ -83,6 +83,7 @@ body {
   }
   
   .homeLine {
+    color: saddlebrown;
     width: 6vh;
     margin: 6vh;
     border-bottom-style: solid;
