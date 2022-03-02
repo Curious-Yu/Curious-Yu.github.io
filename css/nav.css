@@ -57,6 +57,7 @@
       z-index: 1;
       display: none;
       text-align: center;
+      font-size: 6vh;
       width: 50vh;
       min-height: 80vh;
       float: right;
