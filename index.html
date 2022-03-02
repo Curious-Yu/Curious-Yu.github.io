@@ -12,9 +12,28 @@
         <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'> <!-- allowing to use the font awesome icons v5.7.0 -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- allowing to use the font awesome icons v4.7.0-->
         <!--css links-->
+        <link rel="stylesheet" href="/css/nav.css">
         <link rel="stylesheet" href="/css/styles.css">
     </head>
     <body>
+        <!-- Top Navigation Menu -->
+		<div class="topnav">
+			<div class="active"><a href="/" title="welcome page" ><i class="fas fa-fingerprint"></i> Wen Yu</a></div>
+
+			<!-- Navigation links (hidden by default) -->
+			<div id="myLinks">
+				<a href="/#skills" title="skills">Skills </a>
+				<a href="/#repos" title="projects">Projects </a>
+				<a href="/#contact" title="Contact Me">Contact Me </a>
+                <a href="/WenYu_Resume_dec2021.pdf" title="Link to Linkedin resume" target="_blank"> Resume <i class="fas fa-paperclip"></i></a>
+			</div>
+			<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+			<a href="javascript:void(0);" class="icon" title="menu" onclick="myFunction()">
+				<i class="fas fa-server"></i>
+			</a>
+		</div>
+
+		<script src="/js/nav.js"></script>
         <!-- HOME -->
         <div class="home" id="homeBackground">
             <script src="/js/timedBackground.js"></script>

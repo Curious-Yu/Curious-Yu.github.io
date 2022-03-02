@@ -1,0 +1,83 @@
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    /*position: relative;*/
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 1;
+    font-size: 6vh;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  #myLinks {
+    display: none;
+    text-align: center;
+    width: 50vw;
+    min-height: 50vh;
+    float: right;
+    background-color: tomato;
+    flex-direction: column;
+    flex-wrap: no-wrap;
+    justify-content: space-evenly;
+    align-content: center;
+  }
+
+  @media only screen and (max-width: 800px) {
+    #myLinks {
+        width: 100vw;
+        float: none;
+      }
+  }
+
+  #myLinks a {
+    padding: 10px 0px;
+  }
+
+  #myLinks a:hover, #myLinks a:active {
+    color: mistyrose;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: #292f38;
+    text-decoration: none;
+    display: block;
+
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    text-align: center;
+    width: 50px;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    background-color: tomato;
+  }
+  
+  /* Add a style on mouse-over */
+  .topnav a.icon:hover, .topnav a.icon:active{
+    color: mistyrose;
+    font-weight: bold;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    width: 100vw;
+  }
+
+  .active a {
+    text-align: center;
+    float: left;
+    color: #daa520;
+    margin: 3vh;
+  }
+
+  /* Add a style on mouse-over */
+  .active a:hover, .active a:active{
+    color: mistyrose;
+  }
