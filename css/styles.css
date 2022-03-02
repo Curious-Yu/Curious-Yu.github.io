@@ -133,6 +133,123 @@ body {
 
   /* SKILLS */
 
+  #skills {
+    margin: 0;
+    padding: 6vw 0vw;
+    background-color:#daa520;;
+  }
+
+  .skillsTitle {
+    font-size: 12vh;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: none;
+    padding: 0;
+    margin: 0;
+    animation: jelloMove 6s ease-in-out 0s 2 normal both;
+  }
+  
+  @keyframes jelloMove {
+    0% {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    30% {
+      transform: scale3d(0.75, 1.25, 1);
+    }
+  
+    40% {
+      transform: scale3d(1.25, 0.75, 1);
+    }
+  
+    50% {
+      transform: scale3d(0.85, 1.15, 1);
+    }
+  
+    65% {
+      transform: scale3d(1.05, 0.95, 1);
+    }
+  
+    75% {
+      transform: scale3d(0.95, 1.05, 1);
+    }
+  
+    100% {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+  .allSkills {
+    padding: 0;
+    margin: 6vh 2vw 0 2vw;
+    width: auto;
+    height: auto;
+    font-size: 6vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+  }
+  
+  .theSkills {
+    text-align: center;
+    margin: 1vw;
+    padding: 1vw;
+    animation: textMove 12s ease-in-out 0s infinite normal both;
+  }
+  
+  @keyframes textMove {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 0;
+      transform: translateY(-80px);
+    }
+    
+    10% {
+      opacity: 0.5;
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    40% {
+      animation-timing-function: ease-in;
+      transform: translateY(-36px);
+    }
+  
+    65% {
+      animation-timing-function: ease-in;
+      transform: translateY(-16px);
+    }
+  
+    82% {
+      animation-timing-function: ease-in;
+      transform: translateY(-6px);
+    }
+  
+    93% {
+      animation-timing-function: ease-in;
+      transform: translateY(-4px);
+    }
+  
+    25%,
+    55%,
+    75%,
+    87% {
+      animation-timing-function: ease-out;
+      transform: translateY(0px);
+    }
+  
+    100% {
+      animation-timing-function: ease-out;
+      opacity: 0;
+      transform: translateY(0px);
+    }
+  }
+
   /*projects*/
   .repos {
     padding: 10vh 0vw;
