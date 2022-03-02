@@ -99,9 +99,9 @@ body {
     animation: iconMove 3s ease-in-out 0s infinite normal both;
   }
 
-  .homeIcon:active {
-    /*animation: iconMove 6s cubic-bezier(0.87, 0, 0.13, 1) 0s 2 normal both;*/
-  }
+  /*.homeIcon:active {
+    animation: iconMove 6s cubic-bezier(0.87, 0, 0.13, 1) 0s 2 normal both;
+  }*/
 
   @keyframes iconMove {
     0% {
