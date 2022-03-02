@@ -301,21 +301,6 @@ body {
     }
   }
   
-  .fullRepos {
-    margin: 10vh 0vw;
-    text-align: center;
-  }
-  
-  .fullRepos a:link, .fullRepos a:visited {
-    font-size: 6vh;
-    color: #daa520;
-    text-decoration: none;
-  }
-  
-  .fullRepos a:hover, .fullRepos a:active {
-    color: saddlebrown;
-    text-shadow: 1px 1px 1px #daa520;
-  }
   
   li.list-group-item {
     list-style-type: none; /* Remove bullets */
