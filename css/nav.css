@@ -3,8 +3,8 @@
     overflow: hidden;
     /*position: relative;*/
     position: fixed;
-    top: 0;
-    left: 0;
+    padding: 0;
+    margin: 0;
     width: 100vw;
     z-index: 1;
     font-size: 6vh;
@@ -14,14 +14,14 @@
   #myLinks {
     display: none;
     text-align: center;
-    width: 50vw;
-    min-height: 50vh;
+    width: 50vh;
+    min-height: 100vh;
     float: right;
-    background-color: tomato;
     flex-direction: column;
     flex-wrap: no-wrap;
     justify-content: space-evenly;
     align-content: center;
+    background-color: black;
   }
 
   @media only screen and (max-width: 800px) {
@@ -50,11 +50,9 @@
   /* Style the hamburger menu */
   .topnav a.icon {
     display: block;
-    position: absolute;
     text-align: center;
-    top: 0;
-    right: 0;
     margin: 3vh;
+    float:right;
   }
   
   /* Add a style on mouse-over */
