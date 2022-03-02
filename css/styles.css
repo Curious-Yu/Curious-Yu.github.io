@@ -68,6 +68,8 @@ body {
   
   .homeText {
     font-size: 10vh;
+    color: saddlebrown;
+    text-shadow: 1px 1px 1px #daa520;
   }
 
   @media screen and (max-width: 800px) {

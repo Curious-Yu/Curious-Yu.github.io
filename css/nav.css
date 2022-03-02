@@ -41,10 +41,10 @@
   
   /* Style navigation menu links */
   .topnav a {
-    color: #292f38;
+    color: saddlebrown;
+    text-shadow: 1px 1px 1px #daa520;
     text-decoration: none;
     display: block;
-
   }
   
   /* Style the hamburger menu */
@@ -52,11 +52,9 @@
     display: block;
     position: absolute;
     text-align: center;
-    width: 50px;
     top: 0;
     right: 0;
-    padding: 20px;
-    background-color: tomato;
+    margin: 3vh;
   }
   
   /* Add a style on mouse-over */
@@ -73,7 +71,6 @@
   .active a {
     text-align: center;
     float: left;
-    color: #daa520;
     margin: 3vh;
   }
 
