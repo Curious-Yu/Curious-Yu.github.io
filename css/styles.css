@@ -93,7 +93,7 @@ body {
   }
 
   .homeIcon:active {
-    animation: iconMove 3s cubic-bezier(0.87, 0, 0.13, 1) 0s 2 normal both;
+    animation: iconMove 6s cubic-bezier(0.87, 0, 0.13, 1) 0s 2 normal both;
   }
 
   @keyframes iconMove {
@@ -107,7 +107,7 @@ body {
       transform: translateY(0);
     }
       100% {
-      opacity: 0.6;
+      opacity: 0.8;
       transform: translateY(-30px);
     }
   }
@@ -117,15 +117,18 @@ body {
   /* SKILLS */
 
   #skills {
-    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    margin: 2vw;
     padding: 6vw 0vw;
-    background-color:#daa520;;
+    background-color:#daa520;
+    border-radius: 2vw;
+    border: solid 2vw saddlebrown;
+    opacity: 0.85;
   }
 
   .skillsTitle {
     font-size: 12vh;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
     color: none;
     padding: 0;
     margin: 0;
