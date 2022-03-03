@@ -311,18 +311,21 @@ body {
   
   .list-group-item {
     text-align: center;
-    font-size: 80%;
+    font-size: 70%;
   
     width: 280px;
     min-height: 200px;
     
     color: auto;
     border: solid saddlebrown;
-    box-shadow: 10px 10px saddlebrown;
+    box-shadow: 6px 6px saddlebrown;
     margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    padding: 0px 6px;
+    border-radius: 6vh;;
   }
   
   .list-group {
