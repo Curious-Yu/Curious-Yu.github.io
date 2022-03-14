@@ -84,8 +84,8 @@ body {
   }
 
   .homeContact {
-    font-size: 6vh;
-    margin: 3vh;
+    font-size: 8vh;
+    margin: 6vh;
     text-shadow: 1px 1px 1px #daa520;
     text-decoration: none;
   }
@@ -141,34 +141,6 @@ body {
     border-color: auto;
   }
   
-  .homeIcon {
-    margin: 6vh 0vw;
-    font-size: 10vh;
-    color: #5e644f;
-    animation: iconMove 3s ease-in-out 0s infinite normal both;
-  }
-
-  /*.homeIcon:active {
-    animation: iconMove 6s cubic-bezier(0.87, 0, 0.13, 1) 0s 2 normal both;
-  }*/
-
-  @keyframes iconMove {
-    0% {
-      opacity: 1;
-      transform: translateY(-30px);
-    }
-  
-    50% {
-      opacity: 0.8;
-      transform: translateY(0);
-    }
-      100% {
-      opacity: 1;
-      transform: translateY(-30px);
-    }
-  }
-
-
 
   /* SKILLS */
 
