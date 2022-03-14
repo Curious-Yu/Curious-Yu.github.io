@@ -73,11 +73,13 @@
   
     @keyframes menuMove {
       0% {
-        transform: scaleX(0);
+        opacity: 0;
+        transform: translateX(250px);
       }
     
       100% {
-        transform: scaleX(1);
+        opacity: 1;
+        transform: translateX(0);
       }
     }
   
