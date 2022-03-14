@@ -85,11 +85,10 @@ body {
   
   .homeLine {
     color: saddlebrown;
-    width: 6vh;
+    width: 10vh;
     margin: 6vh;
     border-bottom-style: solid;
-    border-width: 10px;
-    border-radius: 6px;
+    border-width: 6px;
     border-color: auto;
   }
   
