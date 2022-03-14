@@ -31,6 +31,7 @@ body {
   
   .homeTitle {
     font-size: 20vh;
+    font-weight: 900;
     color: #daa520;
     text-shadow: 1px 1px 1px saddlebrown;
     animation: jelloMove 6s ease-in-out 0s 2 normal both;
@@ -69,6 +70,7 @@ body {
   
   .homeText {
     font-size: 10vh;
+    font-weight: 600;
     color: saddlebrown;
     text-shadow: 1px 1px 1px #daa520;
   }
@@ -145,13 +147,8 @@ body {
   /* SKILLS */
 
   #skills {
-    font-family: 'Raleway', sans-serif;
     margin: 2vw;
     padding: 0;
-    background-color:#daa520;
-    border-radius: 2vw;
-    border: solid 2vw saddlebrown;
-    opacity: 0.85;
     min-height: 70vh;
     display: flex;
     flex-direction: column;
@@ -162,6 +159,7 @@ body {
 
   .skillsTitle {
     font-size: 12vh;
+    font-weight: 900;
     text-align: center;
     color: none;
     padding: 0;
@@ -202,10 +200,11 @@ body {
 
   .allSkills {
     padding: 0;
-    margin: 6vh 2vw 0 2vw;
+    margin: 6vh 6vw 0 6vw;
     width: auto;
     height: auto;
     font-size: 6vh;
+    font-weight: 600;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -216,6 +215,7 @@ body {
   
   .theSkills {
     text-align: center;
+    text-shadow: 1px 1px 1px black;
     margin: 1vw;
     padding: 1vw;
     animation: textMove 12s ease-in-out 0s infinite normal both;
@@ -285,6 +285,7 @@ body {
   
   .reposTitle {
     font-size: 12vh;
+    font-weight: 900;
     text-align: center;
     color: none;
     padding: 0;
@@ -332,6 +333,7 @@ body {
   .list-group-item {
     text-align: center;
     font-size: 70%;
+    font-weight: 300;
   
     width: 280px;
     min-height: 200px;

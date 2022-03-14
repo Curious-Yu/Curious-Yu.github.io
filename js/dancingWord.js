@@ -9,4 +9,6 @@ var word = document.getElementsByClassName("theSkills");
 
 for (var i = 0; i < wordCount; i++){
   word[i].style.animationDelay = i + "s";
+  var randomColor = Math.floor(Math.random()*16777215).toString(16);
+  word[i].style.color = "#" + randomColor;
 };
