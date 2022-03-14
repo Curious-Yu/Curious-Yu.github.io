@@ -32,6 +32,8 @@
   
   /* Add a style on mouse-over */
   .topnav a.icon:hover, .topnav a.icon:active{
+    color: #daa520;
+    text-shadow: 1px 1px 1px saddlebrown;
     animation: linkMove 3s ease-in-out 0s 1 normal both;
   }
 
@@ -49,6 +51,8 @@
 
   /* Add a style on mouse-over */
   .active a:hover, .active a:active{
+    color: #daa520;
+    text-shadow: 1px 1px 1px saddlebrown;
     animation: linkMove 3s ease-in-out 0s 1 normal both;
   }
 
