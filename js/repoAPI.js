@@ -25,7 +25,7 @@ function requestUserRepos(username){
         for (let i in data) {
 
             // This is to sort by description
-          if (data[i].description != null && data[i].language != null && data[i].fork != true){
+          if (data[i].topics == "project" && data[i].description != null && data[i].language != null && data[i].fork != true){
 
                 // Get the ul with id of of userRepos
                 let ul = document.getElementById('userRepos');
@@ -38,11 +38,14 @@ function requestUserRepos(username){
 
                 // Create the html markup for each li
                 li.innerHTML = (`
-                    <a href="${data[i].html_url}" target="_blank">
-                    <p><strong>${data[i].name} </strong> 
-                    (${data[i].language})</p>
-                    <p>${data[i].description}</p>
-                    </a>
+                    <div class="repoHead">${data[i].name}</div>
+
+                    <div class="repoImg"><img src="https://curious-yu.github.io/${data[i].name}/display.gif"></div>
+
+                    <div class="repoDescription">${data[i].description}</div>
+
+                    <div class="repoDetail"><a href="${data[i].html_url}" target="_blank">Details</a></div>
+                    
                 `);
             
             

@@ -332,23 +332,97 @@ body {
   
   .list-group-item {
     text-align: center;
-    font-size: 70%;
-    font-weight: 300;
   
-    width: 280px;
-    min-height: 200px;
+    max-width: 600px;
+    height: auto;
     
     color: auto;
-    border: solid saddlebrown;
-    box-shadow: 6px 6px saddlebrown;
-    margin: 20px;
+    border: solid rgba(94,100,79, 0.20);
+    border-radius: 3vh;
+    box-shadow: 0 3vh 3vh rgba(94,100,79, 0.10);
+    
+    margin: 3vh;
+    padding: 3vh 0;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
-
-    padding: 0px 6px;
-    border-radius: 6vh;;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
+
+  .repoDescription {
+    color: auto;
+    padding: 1vh;
+
+    font-size: 2vh;
+    font-weight: 600;
+
+    margin: 6vh 3vh;
+  }
+
+  .repoDetail {
+    margin: 3vh 0;
+  }
+
+  .repoDetail a {
+    border: solid rgba(94,100,79, 0.10);
+    border-radius: 3vh;
+    box-shadow: 0 3vh 3vh rgba(94,100,79, 0.10);
+    padding: 3vh;
+    margin: 3vh 0;
+  }
+
+  .repoDetail a:link, .repoDetail a:visited {
+    color: black;
+  }
+
+  .repoDetail a:hover, .repoDetail a:active {
+    color: #daa520;
+    animation: clickMove 1s ease-in-out 0s infinite normal both;
+    -webkit-animation: clickMove 1s ease-in-out 0s infinite normal both;
+  }
+
+  @keyframes clickMove {
+    0%,
+    100% {
+      transform: translateX(0%);
+      transform-origin: 50% 50%;
+    }
+  
+    15% {
+      transform: translateX(-30px) rotate(-6deg);
+    }
+  
+    30% {
+      transform: translateX(15px) rotate(6deg);
+    }
+  
+    45% {
+      transform: translateX(-15px) rotate(-3.6deg);
+    }
+  
+    60% {
+      transform: translateX(9px) rotate(2.4deg);
+    }
+  
+    75% {
+      transform: translateX(-6px) rotate(-1.2deg);
+    }
+  }
+
+  .list-group-item img {
+    /*text-align: center;*/
+    width: 80%;
+    height: auto;
+    object-fit: fill;
+  }
+
+  .repoHead {
+    font-size: 4vh;
+    font-weight: 600;
+    margin: 6vh 3vh;
+  }
+
   
   .list-group {
     padding: 0;
@@ -358,11 +432,3 @@ body {
     flex-wrap: wrap;
   }
   
-  .list-group-item a:link, .list-group-item a:visited {
-    color: black;
-    text-decoration: none;
-  }
-  
-  .list-group-item a:hover, .list-group-item a:active {
-    color: #daa520;
-  }
