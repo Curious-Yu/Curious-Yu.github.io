@@ -19,22 +19,29 @@ body {
     background-size: cover;
     position: absolute;
   }
-/*
+
   @media screen and (max-width: 800px){
     #homeBackground {
+/*
       background-size: 300vw 100vh;
-      /*background-attachment: fixed !important;*/
+      background-attachment: fixed !important;
       background-repeat: repeat;
+*/
+      position: fixed;
+      z-index: -1;
+      top: 0;
+      width: 100%;
+      height: 100%;
       }
   }
-*/
+/*
 @media (pointer: coarse) {
         #homeBackground {
                 background-attachment: fixed !important;
                 position: fixed;
         }
 }
-
+*/
   
   /* Home Page */
   
