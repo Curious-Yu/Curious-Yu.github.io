@@ -27,6 +27,13 @@ body {
       background-repeat: repeat;
       }
   }
+
+@media (pointer: coarse) {
+        #homeBackground {
+                background-attachment: fixed !important;
+        }
+}
+
   
   /* Home Page */
   
