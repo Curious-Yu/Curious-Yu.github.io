@@ -181,6 +181,12 @@ body {
     animation: jelloMove 6s ease-in-out 0s 2 normal both;
   }
 
+  @media screen and (max-width: 800px) {
+    .skillTitle {
+        font-size: 10vh;
+    }
+  }
+
   
   @keyframes jelloMove {
     0% {
@@ -297,12 +303,6 @@ body {
     margin: 2vw;
   }
   
-  @media only screen and (max-width: 550px) {
-    .repos {
-      background-size: 50vw;
-    }
-  }
-  
   .reposTitle {
     font-size: 12vh;
     font-weight: 900;
@@ -343,6 +343,12 @@ body {
       transform: scale3d(1, 1, 1);
     }
   }
+
+  @media screen and (max-width: 800px) {
+    .repoTitle {
+        font-size: 10vh;
+    }
+  }
   
   
   li.list-group-item {
@@ -375,9 +381,15 @@ body {
     padding: 1vh;
 
     font-size: 3vh;
-    font-weight: 300;
+    font-weight: 600;
 
     margin: 6vh 3vh;
+  }
+
+  @media screen and (max-width: 800px) {
+    .repoDescription {
+      font-weight: 300;
+    }
   }
 
   .repoDetail {
