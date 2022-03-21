@@ -188,8 +188,8 @@ body {
   }
 
   @media screen and (max-width: 800px) {
-    .skillTitle {
-        font-size: 6vh;
+    .skillsTitle {
+        font-size: 8vh;
     }
   }
 
@@ -357,8 +357,8 @@ body {
   }
 
   @media screen and (max-width: 800px) {
-    .repoTitle {
-        font-size: 6vh;
+    .reposTitle {
+        font-size: 8vh;
     }
   }
   
