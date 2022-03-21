@@ -165,7 +165,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: no-wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-content: center;
   }
 
