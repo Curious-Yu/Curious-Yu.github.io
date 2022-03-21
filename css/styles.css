@@ -18,7 +18,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
-    width:100vw;
+  }
+
+  @media screen and (max-width: 800px){
+    #homeBackground {
+      background-size: 200vh;
+      }
   }
   
   /* Home Page */
@@ -184,7 +189,7 @@ body {
 
   @media screen and (max-width: 800px) {
     .skillTitle {
-        font-size: 10vh;
+        font-size: 8vh;
     }
   }
 
@@ -238,6 +243,12 @@ body {
     border: solid rgba(139,69,19, 0.20);
     border-radius: 3vh;
     box-shadow: 0 3vh 3vh rgba(139,69,19, 0.20);
+  }
+
+  @media screen and (max-width: 800px) {
+    .allSkills {
+        font-size: 3vh;
+    }
   }
   
   .theSkills {
@@ -347,7 +358,7 @@ body {
 
   @media screen and (max-width: 800px) {
     .repoTitle {
-        font-size: 10vh;
+        font-size: 8vh;
     }
   }
   
@@ -404,7 +415,7 @@ body {
     border-radius: 3vh;
     box-shadow: 0 0 3vh rgba(139,69,19, 0.20);
     padding: 3vh;
-    margin: 3vh 0;
+    margin: 0;
   }
 
   .repoDetail a:link, .repoDetail a:visited {
@@ -458,6 +469,13 @@ body {
     font-weight: 900;
     margin: 6vh 3vh;
     color: saddlebrown;
+  }
+
+  @media screen and (max-width: 800px) {
+    .repoHead {
+      font-size: 3vh;
+      font-weight: 600;
+    }
   }
 
   
