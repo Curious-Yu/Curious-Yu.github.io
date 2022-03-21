@@ -33,7 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -44,7 +44,7 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
   }
   
   .homeTitle {
