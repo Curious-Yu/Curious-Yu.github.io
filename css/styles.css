@@ -22,11 +22,12 @@ body {
 
   @media screen and (max-width: 800px){
     #homeBackground {
-      /*background-size: 200vh;*/
+      background-size: 200vh;
       /*background-attachment: fixed !important;*/
       height: 100%;
       width: 100%;
       position: static;
+
       }
   }
   
