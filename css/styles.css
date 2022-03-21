@@ -426,13 +426,13 @@ body {
   }
 
   .repoDetail a:link, .repoDetail a:visited {
-    color: #daa520;
+    color: saddlebrown;
   }
 
   .repoDetail a:hover, .repoDetail a:active {
-    color: saddlebrown;
-    border: solid rgba(218,165,32, 0.30);
-    box-shadow: 0 3vh 3vh rgba(218,165,32, 0.30);
+    color: #daa520;
+    border: solid rgba(139,69,19, 0.30);
+    box-shadow: 0 3vh 3vh rgba(139,69,19, 0.30);
     animation: clickMove 1s ease-in-out 0s infinite normal both;
   }
 
