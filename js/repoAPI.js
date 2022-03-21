@@ -44,7 +44,7 @@ function requestUserRepos(username){
 
                     <div class="repoDescription">${data[i].description}</div>
 
-                    <div class="repoDetail"><a href="${data[i].html_url}" target="_blank">Details</a></div>
+                    <div class="repoDetail"><a href="${data[i].html_url}" target="_blank">Repo in Details</a></div>
                     
                 `);
             

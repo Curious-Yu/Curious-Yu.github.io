@@ -86,7 +86,8 @@ body {
   }
 
   .homeContact {
-    font-size: 8vh;
+    font-size: 6vh;
+    font-weight: 900;
     margin: 6vh;
     text-shadow: 1px 1px 1px #daa520;
     text-decoration: none;
@@ -147,7 +148,7 @@ body {
   /* SKILLS */
 
   #skills {
-    background: url('/img/treebg.png');
+    background: url('/img/cloud.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -165,9 +166,9 @@ body {
     font-size: 12vh;
     font-weight: 900;
     text-align: center;
-    color: none;
+    color: saddlebrown;
     padding: 0;
-    margin: 0;
+    margin: 10vh;
     animation: jelloMove 6s ease-in-out 0s 2 normal both;
   }
 
@@ -291,9 +292,9 @@ body {
     font-size: 12vh;
     font-weight: 900;
     text-align: center;
-    color: none;
+    color: saddlebrown;
     padding: 0;
-    margin: 0;
+    margin: 10vh;
     animation: jelloMove 6s ease-in-out 0s 2 normal both;
   }
 
@@ -341,9 +342,9 @@ body {
     height: auto;
     
     color: auto;
-    border: solid rgba(94,100,79, 0.20);
+    border: solid rgba(139,69,19, 0.10);
     border-radius: 3vh;
-    box-shadow: 0 3vh 3vh rgba(94,100,79, 0.10);
+    box-shadow: 0 0 3vh rgba(139,69,19, 0.10);
     
     margin: 3vh;
     padding: 3vh 0;
@@ -369,21 +370,24 @@ body {
   }
 
   .repoDetail a {
-    border: solid rgba(94,100,79, 0.10);
+    font-size: 3vh;
+    font-weight: 600;
+    border: solid rgba(139,69,19, 0.10);
     border-radius: 3vh;
-    box-shadow: 0 3vh 3vh rgba(94,100,79, 0.10);
+    box-shadow: 0 0 3vh rgba(139,69,19, 0.10);
     padding: 3vh;
     margin: 3vh 0;
   }
 
   .repoDetail a:link, .repoDetail a:visited {
-    color: black;
+    color: #daa520;
   }
 
   .repoDetail a:hover, .repoDetail a:active {
-    color: #daa520;
+    color: saddlebrown;
+    border: solid rgba(218,165,32, 0.20);
+    box-shadow: 0 3vh 3vh rgba(218,165,32, 0.20);
     animation: clickMove 1s ease-in-out 0s infinite normal both;
-    -webkit-animation: clickMove 1s ease-in-out 0s infinite normal both;
   }
 
   @keyframes clickMove {
@@ -423,8 +427,9 @@ body {
 
   .repoHead {
     font-size: 4vh;
-    font-weight: 600;
+    font-weight: 900;
     margin: 6vh 3vh;
+    color: saddlebrown;
   }
 
   
