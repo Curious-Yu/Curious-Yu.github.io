@@ -14,7 +14,7 @@ body {
   }
 
   #homeBackground {
-    background-attachment: fixed;
+    background-attachment: fixed !important;
     background-repeat: no-repeat;
     background-size: cover;
     position: absolute;
@@ -418,6 +418,12 @@ body {
     margin: 0;
   }
 
+  @media screen and (max-width: 800px) {
+    .repoDetail a {
+      font-weight: 300;
+    }
+  }
+
   .repoDetail a:link, .repoDetail a:visited {
     color: #daa520;
   }
@@ -465,8 +471,8 @@ body {
   }
 
   .repoHead {
-    font-size: 4vh;
-    font-weight: 900;
+    font-size: 6vh;
+    font-weight: 600;
     margin: 6vh 3vh;
     color: saddlebrown;
   }
@@ -474,7 +480,6 @@ body {
   @media screen and (max-width: 800px) {
     .repoHead {
       font-size: 3vh;
-      font-weight: 600;
     }
   }
 
