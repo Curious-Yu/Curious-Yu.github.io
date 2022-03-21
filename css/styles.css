@@ -19,7 +19,7 @@ body {
     background-size: cover;
     position: absolute;
   }
-
+/*
   @media screen and (max-width: 800px){
     #homeBackground {
       background-size: 300vw 100vh;
@@ -27,7 +27,7 @@ body {
       background-repeat: repeat;
       }
   }
-
+*/
 @media (pointer: coarse) {
         #homeBackground {
                 background-attachment: fixed !important;
