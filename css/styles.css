@@ -17,13 +17,16 @@ body {
     background-attachment: fixed !important;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    position: fixed;
   }
 
   @media screen and (max-width: 800px){
     #homeBackground {
       /*background-size: 200vh;*/
-      background-attachment: fixed !important;
+      /*background-attachment: fixed !important;*/
+      background-size: 100vw 100vh;
+      height: 100%;
+      width: 100%;
       }
   }
   
