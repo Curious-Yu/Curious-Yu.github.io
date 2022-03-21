@@ -95,11 +95,11 @@ body {
 
   @media screen and (max-width: 800px) {
     .homeTitle {
-        font-size: 16vh;
+        font-size: 12vh;
     }
 
     .homeText {
-        font-size: 4vh;
+        font-size: 3vh;
     }
   }
 
