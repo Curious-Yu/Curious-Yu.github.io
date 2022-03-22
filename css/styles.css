@@ -22,11 +22,9 @@ body {
 
   @media screen and (max-width: 800px){
     #homeBackground {
-/*
-      background-size: 300vw 100vh;
-      background-attachment: fixed !important;
-      background-repeat: repeat;
-*/
+      /*
+      fixed the mobile parallax problem
+      */
       position: fixed;
       z-index: -1;
       top: 0;
@@ -35,14 +33,6 @@ body {
       overflow-y: scroll;
       }
   }
-/*
-@media (pointer: coarse) {
-        #homeBackground {
-                background-attachment: fixed !important;
-                position: fixed;
-        }
-}
-*/
   
   /* Home Page */
   
