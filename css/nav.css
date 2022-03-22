@@ -111,6 +111,7 @@
     }
   
     #myLinks a:hover, #myLinks a:active {
+      color: #daa520;
       animation: linkMove 3s ease-in-out 0s 1 normal both;
     }
 
