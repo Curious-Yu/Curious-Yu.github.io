@@ -20,7 +20,7 @@ body {
     position: absolute;
   }
 
-  @media screen and (max-width: 800px){
+  @media screen and (max-width: 920px){
     #homeBackground {
       /*
       fixed the mobile parallax problem
@@ -56,7 +56,7 @@ body {
   }
   
   .homeTitle {
-    font-size: 20vh;
+    font-size: 18vh;
     font-weight: 900;
     color: #daa520;
     text-shadow: 1px 1px 1px saddlebrown;
@@ -95,19 +95,20 @@ body {
   }
   
   .homeText {
-    font-size: 10vh;
+    font-size: 8vh;
     font-weight: 900;
     color: saddlebrown;
     text-shadow: 1px 1px 1px #daa520;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 920px) {
     .homeTitle {
         font-size: 12vh;
     }
 
     .homeText {
-        font-size: 3vh;
+        font-size: 4vh;
+        font-weight: 600;
     }
   }
 
@@ -195,7 +196,7 @@ body {
     animation: jelloMove 6s ease-in-out 0s 2 normal both;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 920px) {
     .skillsTitle {
         font-size: 8vh;
     }
@@ -253,7 +254,7 @@ body {
     box-shadow: 0 3vh 3vh rgba(139,69,19, 0.20);
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 920px) {
     .allSkills {
         font-size: 3vh;
     }
@@ -364,7 +365,7 @@ body {
     }
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 920px) {
     .reposTitle {
         font-size: 8vh;
     }
@@ -406,7 +407,7 @@ body {
     margin: 6vh 3vh;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 920px) {
     .repoDescription {
       font-weight: 300;
     }
@@ -426,7 +427,7 @@ body {
     margin: 0;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 920px) {
     .repoDetail a {
       font-weight: 300;
     }
@@ -485,7 +486,7 @@ body {
     color: saddlebrown;
   }
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 920px) {
     .repoHead {
       font-size: 3vh;
     }

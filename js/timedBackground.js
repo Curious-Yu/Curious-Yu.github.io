@@ -7,7 +7,7 @@ if (document.getElementById("homeBackground")) {
 
     if (currentTime > 20) {
         document.getElementById("homeBackground").style.backgroundImage = "url('/img/night.png')";
-        document.getElementById("homeBackground").style.backgroundPosition = "left";
+        document.getElementById("homeBackground").style.backgroundPosition = "center";
     }
 
     else if (currentTime > 13) {
@@ -22,6 +22,6 @@ if (document.getElementById("homeBackground")) {
 
     else {
         document.getElementById("homeBackground").style.backgroundImage = "url('/img/night.png')";
-        document.getElementById("homeBackground").style.backgroundPosition = "left";
+        document.getElementById("homeBackground").style.backgroundPosition = "center";
     }
 };

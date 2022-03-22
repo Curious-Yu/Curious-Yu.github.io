@@ -64,7 +64,7 @@
       font-size: 6vh;
       font-weight: 600;
       width: 50vh;
-      min-height: 38vh;
+      min-height: 36vh;
       float: right;
       flex-direction: column;
       flex-wrap: no-wrap;
@@ -73,6 +73,14 @@
       background-color: black;
       position:fixed;
       right: 0;
+      top: 10vh;
+
+      background-color: rgba(255,255,255, 0.90);
+
+      border: solid rgba(139,69,19, 0.20);
+      border-radius: 3vh;
+      box-shadow: 0 3vh 3vh rgba(139,69,19, 0.20);
+
       animation: menuMove 1s ease-in-out 0s 1 normal both;
     }
   
@@ -88,7 +96,7 @@
       }
     }
   
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 920px) {
       #myLinks {
           width: 100vw;
           float: none;
